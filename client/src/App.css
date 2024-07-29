@@ -1,94 +1,110 @@
-.container{
-    height: 100vh;
-    border:1px solid black ;
-    background: #fc4a1a; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.container {
+    height: 100vh ;
+    border: 1px solid black;
+    background: #fc4a1a;
+    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
 }
 
-.container .search-container{
-     position: relative;
-     top:50% ;
-     left:50% ;
-     height: 300px ;
-     width:500px ;
-     transform: translate(-50%,-50%);
- 
+.container .search-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+
 }
-.search-bar{
-    width:100% ;
-    height:50px ;
+
+.search-bar {
+    width: 100%;
+    height: 50px;
     border-radius: 10px;
-    padding:10px ;
+    padding: 10px;
     outline: none;
     border: none;
-  
+
 }
-.btn{
-     width:100% ;
-     height:100px;
-     text-align: center;
-    
+
+.btn {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
 }
-h2{
+
+h2 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.btn button{
-  appearance: none;
-  background-color: #2ea44f;
-  border: 1px solid rgba(27, 31, 35, .15);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  padding: 6px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  white-space: nowrap;
-  margin-top: 10px;
+
+.btn button {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-top: 10px;
 
 }
 
-button:focus:not(:focus-visible):not(.focus-visible){
-     box-shadow: none;
-     outline:none ;
-    
-}
-
-button:hover{
-    background-color:#2c974b ;
+button:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
 
 }
-button:focus{
-    box-shadow: rgba(46,164,79,.4)0 0 0 3px;
+
+button:hover {
+    background-color: #2c974b;
+
+}
+
+button:focus {
+    box-shadow: rgba(46, 164, 79, .4)0 0 0 3px;
     outline: none;
 }
+
 button:disabled {
     background-color: #94d3a2;
     border-color: rgba(27, 31, 35, .1);
     color: rgba(255, 255, 255, .8);
     cursor: default;
-  }
-  
+}
+
 .button:active {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
-
-
-
-
+.output{
+    width:100% ;
+    height:200px ;
+    overflow-y: auto;
+}
+.result {
+    background-color: #7e6c6c;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: large;
+    font-weight: 500;
+}
