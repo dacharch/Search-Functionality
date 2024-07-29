@@ -37,6 +37,8 @@ h2 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 }
 
 .btn button {

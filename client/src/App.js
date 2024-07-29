@@ -17,7 +17,6 @@ function App() {
          <h2>Search your shoes </h2>
         <input 
           onKeyPress={(e)=>handleKeyUp(e.target.value)}
-          
           className='search-bar' type="text" placeholder='Search Here' />
         <div className='btn'>
           <button>Search Result</button>
